@@ -16,12 +16,11 @@ $ curl http://127.0.0.1:5000/
 </body>
 </html>
 vdi-terminal@MX1-Prog-098 MINGW64 ~/cw_nauka_gita
-$ curl http://127.0.0.1:5000/hello
+$ curl http://127.0.0.1:5000/hello/
 <!doctype html>
-<html lang=en>
-<title>Redirecting...</title>
-<h1>Redirecting...</h1>
-<p>You should be redirected automatically to the target URL: <a href="http://127.0.0.1:5000/hello/">http://127.0.0.1:5000/hello/</a>. If not, click the link.
+<title>Hello from Flask</title>
+
+  <h1>Hello, World!</h1>
 
 vdi-terminal@MX1-Prog-098 MINGW64 ~/cw_nauka_gita
 $ curl http://127.0.0.1:5000/hello/test
